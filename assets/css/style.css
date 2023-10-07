@@ -148,6 +148,12 @@ h6 {
   }
 }
 
+/* @media (max-width: 450px) {
+  #hero > * {
+    left: 0px;
+  }
+} */
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -293,11 +299,12 @@ h6 {
   padding-left: 160px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   #hero {
     padding-left: 160px;
   }
 }
+
 
 #hero:before {
   content: "";
@@ -360,6 +367,35 @@ h6 {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+  }
+}
+@media (max-width: 560px) {
+  #hero {
+    text-align: left;
+  }
+  #hero .container {
+    padding-left: 20px;
+  }
+  #hero .social-links a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  #hero {
+    text-align: left;
+  }
+  #hero .container {
+    padding-left: 20px;
+  }
+  #hero h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #hero .social-links {
+   width: 300px;
+  }
+  #hero .social-links a {
+    font-size: 20px;    
   }
 }
 
