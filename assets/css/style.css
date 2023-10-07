@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 :root {
   --base-wh-clr: #fff;
-  --base-act-clr: #4cd137;
-  --base-hov-clr: #44bd32;
+  --base-hov-clr: rgb(35,170,225);
+  --base-act-clr: rgb(24,17,187);
 }
 
 body {
@@ -1232,7 +1232,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: var(--base-act-clr);
+  background: var(--base-hov-clr);
   color: var(--base-wh-clr);
   line-height: 1;
   padding: 8px 0;
@@ -1245,7 +1245,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: var(--base-hov-clr);
+  background: var(--base-act-clr);
   color: var(--base-wh-clr);
   text-decoration: none;
 }
